@@ -6,31 +6,46 @@
         "name": "Croissant",
         "description": "Flaky, buttery classic French croissant made with layered puff pastry.",
         "price": 3.50,
-        "tags": ["butter", "flaky", "breakfast"]
+        "tags": ["butter", "flaky", "breakfast"],
+        "ingredients": ["flour", "butter", "yeast", "milk", "sugar", "salt"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Pain au Chocolat",
         "description": "Buttery puff pastry filled with rich dark chocolate.",
         "price": 4.00,
-        "tags": ["chocolate", "butter", "breakfast"]
+        "tags": ["chocolate", "butter", "breakfast"],
+        "ingredients": ["flour", "butter", "chocolate", "yeast", "milk", "sugar", "salt"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Almond Croissant",
         "description": "Flaky croissant filled with almond cream and topped with sliced almonds and powdered sugar.",
         "price": 4.75,
-        "tags": ["nuts", "almond", "butter", "sweet"]
+        "tags": ["nuts", "almond", "butter", "sweet"],
+        "ingredients": ["flour", "butter", "almond cream", "almonds", "sugar", "eggs"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Éclair",
         "description": "Light choux pastry filled with vanilla pastry cream and topped with chocolate glaze.",
         "price": 5.00,
-        "tags": ["vanilla", "chocolate", "pastry_cream", "sweet"]
+        "tags": ["vanilla", "chocolate", "pastry_cream", "sweet"],
+        "ingredients": ["flour", "butter", "eggs", "milk", "sugar", "vanilla", "chocolate"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Madeleine",
         "description": "Small, shell-shaped buttery sponge cakes with a hint of lemon zest.",
         "price": 2.50,
-        "tags": ["butter", "sponge", "lemon"]
+        "tags": ["butter", "sponge", "lemon"],
+        "ingredients": ["flour", "butter", "eggs", "sugar", "lemon zest"],
+        "gluten_free": false,
+        "vegan": false
       }
     ]
   },
@@ -41,31 +56,46 @@
         "name": "Baguette Tradition",
         "description": "Classic French baguette with a crispy crust and chewy crumb.",
         "price": 3.00,
-        "tags": ["wheat", "crusty", "traditional"]
+        "tags": ["wheat", "crusty", "traditional"],
+        "ingredients": ["flour", "water", "yeast", "salt"],
+        "gluten_free": false,
+        "vegan": true
       },
       {
         "name": "Pain de Campagne",
         "description": "Rustic country loaf made with a blend of white, whole wheat, and rye flours.",
         "price": 5.50,
-        "tags": ["rustic", "wheat", "rye", "artisan"]
+        "tags": ["rustic", "wheat", "rye", "artisan"],
+        "ingredients": ["white flour", "whole wheat flour", "rye flour", "water", "yeast", "salt"],
+        "gluten_free": false,
+        "vegan": true
       },
       {
         "name": "Ficelle",
         "description": "Thin, crispy baguette with a delicate crumb.",
         "price": 3.25,
-        "tags": ["wheat", "crusty", "light"]
+        "tags": ["wheat", "crusty", "light"],
+        "ingredients": ["flour", "water", "yeast", "salt"],
+        "gluten_free": false,
+        "vegan": true
       },
       {
         "name": "Pain aux Noix",
         "description": "Whole wheat bread studded with toasted walnuts.",
         "price": 6.00,
-        "tags": ["nuts", "walnuts", "whole_wheat"]
+        "tags": ["nuts", "walnuts", "whole_wheat"],
+        "ingredients": ["whole wheat flour", "water", "yeast", "salt", "walnuts"],
+        "gluten_free": false,
+        "vegan": true
       },
       {
         "name": "Brioche",
         "description": "Soft, buttery bread with a tender crumb and slightly sweet flavor.",
         "price": 4.50,
-        "tags": ["butter", "soft", "sweet"]
+        "tags": ["butter", "soft", "sweet"],
+        "ingredients": ["flour", "butter", "eggs", "milk", "sugar", "yeast", "salt"],
+        "gluten_free": false,
+        "vegan": false
       }
     ]
   },
@@ -80,7 +110,10 @@
           "eight_inch": 23.25,
           "ten_inch": 29.00
         },
-        "tags": ["lemon", "custard", "tart", "sweet"]
+        "tags": ["lemon", "custard", "tart", "sweet"],
+        "ingredients": ["flour", "butter", "eggs", "sugar", "lemon juice", "cream"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Tarte aux Fraises",
@@ -90,7 +123,10 @@
           "eight_inch": 26.00,
           "ten_inch": 32.50
         },
-        "tags": ["strawberry", "pastry_cream", "tart", "sweet"]
+        "tags": ["strawberry", "pastry_cream", "tart", "sweet"],
+        "ingredients": ["flour", "butter", "eggs", "sugar", "milk", "strawberries"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Opéra Cake",
@@ -100,7 +136,10 @@
           "eight_inch": 55.00,
           "ten_inch": 70.00
         },
-        "tags": ["almond", "coffee", "chocolate", "layered", "cake"]
+        "tags": ["almond", "coffee", "chocolate", "layered", "cake"],
+        "ingredients": ["flour", "eggs", "butter", "sugar", "almond meal", "coffee", "chocolate", "cream"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
         "name": "Mille-Feuille",
@@ -110,17 +149,23 @@
           "eight_inch": 24.00,
           "ten_inch": 30.00
         },
-        "tags": ["puff_pastry", "pastry_cream", "vanilla", "sweet"]
+        "tags": ["puff_pastry", "pastry_cream", "vanilla", "sweet"],
+        "ingredients": ["flour", "butter", "eggs", "milk", "sugar", "vanilla"],
+        "gluten_free": false,
+        "vegan": false
       },
       {
-        "name": "Clafoutis",
-        "description": "Baked dessert with black cherries suspended in a thick flan-like batter.",
+        "name": "Clafoutis (Gluten-Free & Vegan)",
+        "description": "Baked dessert with black cherries suspended in a thick flan-like batter made with gluten-free flour and no animal products.",
         "sizes": {
           "six_inch": 15.00,
           "eight_inch": 20.00,
           "ten_inch": 25.00
         },
-        "tags": ["cherry", "flan", "baked", "dessert"]
+        "tags": ["cherry", "flan", "baked", "dessert", "gluten_free", "vegan"],
+        "ingredients": ["gluten-free flour", "almond milk", "cane sugar", "black cherries", "cornstarch", "vanilla extract"],
+        "gluten_free": true,
+        "vegan": true
       }
     ]
   },
@@ -131,31 +176,46 @@
         "name": "Café au Lait",
         "description": "Freshly brewed coffee mixed with steamed milk.",
         "price": 3.75,
-        "tags": ["coffee", "milk", "hot"]
+        "tags": ["coffee", "milk", "hot"],
+        "ingredients": ["coffee", "milk"],
+        "gluten_free": true,
+        "vegan": false
       },
       {
         "name": "Espresso",
         "description": "Strong, concentrated coffee shot made from finely ground beans.",
         "price": 2.75,
-        "tags": ["coffee", "hot", "strong"]
+        "tags": ["coffee", "hot", "strong"],
+        "ingredients": ["coffee"],
+        "gluten_free": true,
+        "vegan": true
       },
       {
         "name": "Thé à la Menthe",
         "description": "Moroccan-style mint tea served hot and sweetened.",
         "price": 3.50,
-        "tags": ["tea", "mint", "hot", "sweet"]
+        "tags": ["tea", "mint", "hot", "sweet"],
+        "ingredients": ["mint leaves", "black tea", "sugar", "water"],
+        "gluten_free": true,
+        "vegan": true
       },
       {
         "name": "Hot Chocolate",
         "description": "Rich, creamy hot chocolate made with real dark chocolate.",
         "price": 4.00,
-        "tags": ["chocolate", "hot", "creamy"]
+        "tags": ["chocolate", "hot", "creamy"],
+        "ingredients": ["dark chocolate", "milk", "sugar", "cream"],
+        "gluten_free": true,
+        "vegan": false
       },
       {
         "name": "Iced Latte",
         "description": "Chilled espresso mixed with milk and served over ice.",
         "price": 4.25,
-        "tags": ["coffee", "cold", "milk", "espresso"]
+        "tags": ["coffee", "cold", "milk", "espresso"],
+        "ingredients": ["espresso", "milk", "ice"],
+        "gluten_free": true,
+        "vegan": false
       }
     ]
   }
