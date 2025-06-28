@@ -1,60 +1,70 @@
 [
   {
     "type": "faq",
+    "label": "hours_of_operation",
     "question": "What are your hours?",
     "answer": "We're open from 7 AM to 7 PM, Tuesday through Sunday. We're closed on Mondays.",
     "concepts": ["hours", "open", "close", "schedule", "days"]
   },
   {
     "type": "faq",
+    "label": "store_location",
     "question": "Where are you located?",
-    "answer": "We're at 302 W 7th Ave, Tampa, FL, 33602—our west location.",
+    "answer": "We're at 111 Main St., Tampa, FL, 43210",
     "concepts": ["location", "address", "directions"]
   },
   {
     "type": "faq",
+    "label": "gluten_free_options",
     "question": "Do you have any gluten-free options?",
     "answer": "We do! Our flourless chocolate cake and almond cloud cookie are made without gluten, but please note our kitchen is not certified gluten-free.",
     "concepts": ["gluten", "allergy", "gluten-free", "ingredients"]
   },
   {
     "type": "faq",
+    "label": "vegan_items",
     "question": "Do you offer vegan items?",
     "answer": "We don't currently offer any vegan items—most of our pastries include butter, eggs, or milk.",
     "concepts": ["vegan", "dairy-free", "egg-free", "plant-based"]
   },
   {
     "type": "faq",
+    "label": "contains_nuts_or_dairy",
     "question": "Do your items contain nuts or dairy?",
     "answer": "Many of our pastries contain nuts and dairy. While we try to avoid cross-contact, we can't guarantee allergen-free handling.",
     "concepts": ["nuts", "dairy", "allergy", "ingredients"]
   },
   {
     "type": "faq",
+    "label": "order_ahead",
     "question": "Can I place an order ahead of time?",
     "answer": "Yes, you can order ahead via our website or the Sunny Day Café mobile app.",
     "concepts": ["ahead", "mobile_app", "online", "ordering"]
   },
   {
     "type": "faq",
+    "label": "phone_orders",
     "question": "Do you accept phone orders?",
     "answer": "Yes, we accept phone orders for same-day or future pickup.",
     "concepts": ["phone", "call", "ordering", "pickup"]
   },
   {
     "type": "faq",
+    "label": "custom_cake_notice",
     "question": "How much notice do you need for a custom cake?",
     "answer": "Custom cakes require 48 hours notice and a deposit.",
     "concepts": ["custom", "cake", "advance", "deposit"]
   },
   {
     "type": "faq",
+    "label": "catering_or_large_orders",
     "question": "Do you offer catering or large orders?",
     "answer": "We don't offer catering, but we're happy to help with large pickup orders. We typically ask for 48 hours notice.",
     "concepts": ["catering", "bulk", "large", "event", "pickup"]
   },
   {
     "type": "faq",
+    "label": "ingredient_or_allergen_info",
     "question": "Can I get ingredient or allergen information about an item?",
     "answer": "Yes, I can check the ingredient list or confirm allergens for any item—just let me know which one.",
     "concepts": ["ingredients", "allergen", "check", "item", "menu"]
@@ -72,7 +82,7 @@
   {
     "type": "info",
     "label": "store_address",
-    "value": "302 W 7th Ave, Tampa, FL, 33602"
+    "value": "1111 Main St., Tampa, FL, 43210"
   },
   {
     "type": "info",
