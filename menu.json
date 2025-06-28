@@ -1,0 +1,162 @@
+[
+  {
+    "category": "pastries",
+    "items": [
+      {
+        "name": "Croissant",
+        "description": "Flaky, buttery classic French croissant made with layered puff pastry.",
+        "price": 3.50,
+        "tags": ["butter", "flaky", "breakfast"]
+      },
+      {
+        "name": "Pain au Chocolat",
+        "description": "Buttery puff pastry filled with rich dark chocolate.",
+        "price": 4.00,
+        "tags": ["chocolate", "butter", "breakfast"]
+      },
+      {
+        "name": "Almond Croissant",
+        "description": "Flaky croissant filled with almond cream and topped with sliced almonds and powdered sugar.",
+        "price": 4.75,
+        "tags": ["nuts", "almond", "butter", "sweet"]
+      },
+      {
+        "name": "Éclair",
+        "description": "Light choux pastry filled with vanilla pastry cream and topped with chocolate glaze.",
+        "price": 5.00,
+        "tags": ["vanilla", "chocolate", "pastry_cream", "sweet"]
+      },
+      {
+        "name": "Madeleine",
+        "description": "Small, shell-shaped buttery sponge cakes with a hint of lemon zest.",
+        "price": 2.50,
+        "tags": ["butter", "sponge", "lemon"]
+      }
+    ]
+  },
+  {
+    "category": "breads",
+    "items": [
+      {
+        "name": "Baguette Tradition",
+        "description": "Classic French baguette with a crispy crust and chewy crumb.",
+        "price": 3.00,
+        "tags": ["wheat", "crusty", "traditional"]
+      },
+      {
+        "name": "Pain de Campagne",
+        "description": "Rustic country loaf made with a blend of white, whole wheat, and rye flours.",
+        "price": 5.50,
+        "tags": ["rustic", "wheat", "rye", "artisan"]
+      },
+      {
+        "name": "Ficelle",
+        "description": "Thin, crispy baguette with a delicate crumb.",
+        "price": 3.25,
+        "tags": ["wheat", "crusty", "light"]
+      },
+      {
+        "name": "Pain aux Noix",
+        "description": "Whole wheat bread studded with toasted walnuts.",
+        "price": 6.00,
+        "tags": ["nuts", "walnuts", "whole_wheat"]
+      },
+      {
+        "name": "Brioche",
+        "description": "Soft, buttery bread with a tender crumb and slightly sweet flavor.",
+        "price": 4.50,
+        "tags": ["butter", "soft", "sweet"]
+      }
+    ]
+  },
+  {
+    "category": "tarts_and_cakes",
+    "items": [
+      {
+        "name": "Tarte au Citron",
+        "description": "Classic French lemon tart with a buttery crust and tangy lemon custard.",
+        "sizes": {
+          "six_inch": 17.25,
+          "eight_inch": 23.25,
+          "ten_inch": 29.00
+        },
+        "tags": ["lemon", "custard", "tart", "sweet"]
+      },
+      {
+        "name": "Tarte aux Fraises",
+        "description": "Fresh strawberry tart with pastry cream in a crisp tart shell.",
+        "sizes": {
+          "six_inch": 19.50,
+          "eight_inch": 26.00,
+          "ten_inch": 32.50
+        },
+        "tags": ["strawberry", "pastry_cream", "tart", "sweet"]
+      },
+      {
+        "name": "Opéra Cake",
+        "description": "Layered almond sponge cake soaked in coffee syrup with chocolate ganache and coffee buttercream.",
+        "sizes": {
+          "six_inch": 40.00,
+          "eight_inch": 55.00,
+          "ten_inch": 70.00
+        },
+        "tags": ["almond", "coffee", "chocolate", "layered", "cake"]
+      },
+      {
+        "name": "Mille-Feuille",
+        "description": "Three layers of puff pastry filled with vanilla pastry cream and topped with fondant icing.",
+        "sizes": {
+          "six_inch": 18.00,
+          "eight_inch": 24.00,
+          "ten_inch": 30.00
+        },
+        "tags": ["puff_pastry", "pastry_cream", "vanilla", "sweet"]
+      },
+      {
+        "name": "Clafoutis",
+        "description": "Baked dessert with black cherries suspended in a thick flan-like batter.",
+        "sizes": {
+          "six_inch": 15.00,
+          "eight_inch": 20.00,
+          "ten_inch": 25.00
+        },
+        "tags": ["cherry", "flan", "baked", "dessert"]
+      }
+    ]
+  },
+  {
+    "category": "beverages",
+    "items": [
+      {
+        "name": "Café au Lait",
+        "description": "Freshly brewed coffee mixed with steamed milk.",
+        "price": 3.75,
+        "tags": ["coffee", "milk", "hot"]
+      },
+      {
+        "name": "Espresso",
+        "description": "Strong, concentrated coffee shot made from finely ground beans.",
+        "price": 2.75,
+        "tags": ["coffee", "hot", "strong"]
+      },
+      {
+        "name": "Thé à la Menthe",
+        "description": "Moroccan-style mint tea served hot and sweetened.",
+        "price": 3.50,
+        "tags": ["tea", "mint", "hot", "sweet"]
+      },
+      {
+        "name": "Hot Chocolate",
+        "description": "Rich, creamy hot chocolate made with real dark chocolate.",
+        "price": 4.00,
+        "tags": ["chocolate", "hot", "creamy"]
+      },
+      {
+        "name": "Iced Latte",
+        "description": "Chilled espresso mixed with milk and served over ice.",
+        "price": 4.25,
+        "tags": ["coffee", "cold", "milk", "espresso"]
+      }
+    ]
+  }
+]
